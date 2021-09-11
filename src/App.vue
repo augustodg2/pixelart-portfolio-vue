@@ -1,17 +1,19 @@
 <template>
-  <header>
-      <section class="title-section">
-        <h1>Augusto Dias</h1>
-        <h2>Hobbist pixel artist</h2>
-      </section>
-
-      <a href="mailto:augustodg2@gmail.com">augustodg2@gmail.com</a>
-    </header>
+  <Header
+    title="Augusto Dias"
+    subtitle="Hobbist pixel artist"
+    email="augustodg2@gmail.com"
+  />
 </template>
 
 <script>
+import Header from './components/Header';
+
 export default {
   name: 'App',
+  components: {
+    Header
+  },
 }
 </script>
 
@@ -30,32 +32,5 @@ body {
   margin: auto;
   text-align: center;
   padding-top: 2rem;
-}
-
-.title-section {
-  margin-bottom: .5rem;
-}
-
-h1 {
-  font-family: VT323;
-  font-size: 6rem;
-  font-weight: normal;
-  text-shadow: 4px 4px 0 black;
-  margin: 0;
-}
-
-h2 {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: normal;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 </style>
