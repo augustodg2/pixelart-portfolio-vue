@@ -4,15 +4,24 @@
     subtitle="Hobbist pixel artist"
     email="augustodg2@gmail.com"
   />
+  <Gallery :images="images" />
 </template>
 
 <script>
-import Header from './components/Header';
+import Header from './components/Header.vue';
+import Gallery from './components/Gallery.vue';
+import images from './data/image-list.json';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Gallery,
+  },
+  data() {
+    return {
+      images
+    }
   },
 }
 </script>

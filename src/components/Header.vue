@@ -25,7 +25,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+header {
+  margin-bottom: 2.5rem;
+}
 
 .title-section {
   margin-bottom: .5rem;
