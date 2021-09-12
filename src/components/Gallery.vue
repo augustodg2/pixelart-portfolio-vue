@@ -34,6 +34,7 @@ export default {
     margin-left: -20px;
     margin-bottom: -20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 li {
@@ -41,5 +42,18 @@ li {
     width: fit-content;
     margin-left: 20px;
     margin-bottom: 20px;
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .gallery ul {
+        margin-left: -5px;
+        margin-bottom: -5px;
+    }
+
+    li {
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
 }
 </style>

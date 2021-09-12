@@ -56,4 +56,15 @@ a {
 a:hover {
   text-decoration: underline;
 }   
+
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
 </style>
