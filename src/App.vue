@@ -30,7 +30,7 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  background: #091B49;
+  background: #345dc5;
   color: #FFF;
   font-family: 'Open Sans';
 }
